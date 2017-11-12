@@ -7,7 +7,7 @@
 	</head>
 	<body style="background-color:rgba(1, 14, 14, 0.1);">
 		<div style="position:absolute; top: 30%; left: 42%;">
-			<form action=""  method="Post">
+			<form action="logar"  method="Post">
 				<img href=""></img>
 				<p><strong>Autenticação Necessária</strong></p>
 				<br/><input type="text" name="id" placeholder="email"/><br/><br/>
