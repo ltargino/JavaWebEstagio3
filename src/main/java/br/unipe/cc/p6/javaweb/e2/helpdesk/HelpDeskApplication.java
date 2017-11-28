@@ -17,7 +17,6 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableJpaRepositories(basePackages = {"br.unipe.cc.p6.javaweb.e2.helpdesk.dao"})
 @EnableTransactionManagement
 public class HelpDeskApplication {
-
 	public static void main(String[] args) {
 		SpringApplication.run(HelpDeskApplication.class, args);
 	}

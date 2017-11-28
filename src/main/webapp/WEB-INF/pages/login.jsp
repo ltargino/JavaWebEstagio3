@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
@@ -9,10 +10,10 @@
 		<div style="position:absolute; top: 30%; left: 42%;">
 			<form action="logar"  method="Post">
 				<img href=""></img>
-				<p><strong>Autenticação Necessária</strong></p>
+				<p><strong>Autenticaï¿½ï¿½o Necessï¿½ria</strong></p>
 				<br/><input type="text" name="id" placeholder="email"/><br/><br/>
 				<br/><input type="password" name="senha" placeholder="******"/><br/><br/>
-				<input type="submit"  value="Iniciar Sessão"/> 
+				<input type="submit"  value="Iniciar Sessï¿½o"/> 
 			</form>
 		</div>
 	</body>
