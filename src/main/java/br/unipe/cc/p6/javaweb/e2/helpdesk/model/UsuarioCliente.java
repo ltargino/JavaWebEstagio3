@@ -17,6 +17,10 @@ public class UsuarioCliente extends Usuario{
 		this.departamento = departamento;
 	}
 	
+	public UsuarioCliente() {
+		
+	}
+	
 	//gets e sets
 	public Departamento getDepartamento() {
 		return departamento;

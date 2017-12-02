@@ -10,5 +10,8 @@ public class UsuarioAdm extends Usuario {
 	public UsuarioAdm(String senha, String nome, String email) {
 		super(senha, nome, email);
 	}
+	
+	public UsuarioAdm() {
+	}
 
 }

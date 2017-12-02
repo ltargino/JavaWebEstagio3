@@ -72,11 +72,8 @@ public class Ticket implements IModel{
 	public Prioridade getPrioridade() {
 		return prioridade;
 	}
-	@SuppressWarnings("unused")
 	public void setPrioridade(Prioridade prioridade) {
 		this.prioridade = prioridade;
-		
-		SLA sla = new SLA(1L);
 	}
 	public Long getId() {
 		return id;

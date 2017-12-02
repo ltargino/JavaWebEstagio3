@@ -13,7 +13,7 @@ import javax.persistence.OneToMany;
 
 @Entity
 @Inheritance(strategy = InheritanceType.JOINED)
-public abstract class Usuario implements IModel{
+public class Usuario implements IModel{
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -34,6 +34,9 @@ public abstract class Usuario implements IModel{
 		this.senha = senha;
 		this.nome = nome;
 		this.email = email;
+	}
+	
+	public Usuario() {
 	}
 	
 	//gets e sets
@@ -78,5 +81,8 @@ public abstract class Usuario implements IModel{
 		this.ticket = ticket;
 	}	
 	
+	public boolean verificarSenha(String senha) {
+		return this.senha.equals(senha);
+	}
 
 }

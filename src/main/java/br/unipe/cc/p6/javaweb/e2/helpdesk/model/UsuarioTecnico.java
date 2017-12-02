@@ -14,6 +14,10 @@ public class UsuarioTecnico extends Usuario {
 		super(senha, nome, email);
 		this.nivel = nivel;
 	}
+	
+	public UsuarioTecnico() {
+		
+	}
 
 	//gets e sets
 	public int getNivel() {
