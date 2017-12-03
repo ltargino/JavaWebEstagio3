@@ -1,10 +1,10 @@
 Manifest-Version: 1.0
-Built-By: Arthur Silvestre
-Build-Jdk: 9.0.1
 Implementation-Title: HelpDesk
 Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: artbr
 Implementation-Vendor-Id: br.unipe.cc.p6.javaweb.e2
-Implementation-Vendor: Pivotal Software, Inc.
+Build-Jdk: 1.8.0_121
 Implementation-URL: http://projects.spring.io/spring-boot/HelpDesk/
 Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
 

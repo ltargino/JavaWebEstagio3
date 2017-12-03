@@ -40,8 +40,8 @@
 	                    
 	                    <div class="input-field col s12">
 	                        <i class="material-icons prefix">account_circle</i>
-	                        <form:input path="id" required="required" type="text" />
-	                        <label for="user-input">Usuário</label>
+	                        <form:input path="email" required="required" type="text" />
+	                        <label for="user-input">E-mail</label>
 	                    </div>
 	                    
 	                    <div class="input-field col s12">

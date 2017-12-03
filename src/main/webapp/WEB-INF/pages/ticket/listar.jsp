@@ -22,7 +22,7 @@
     <script type="text/javascript" src="../js/jquery-3.2.1.js"></script>
     <script type="text/javascript" src="../materialize/js/materialize.js"></script>
 
-    <title>Helpdesk - Homepage</title>
+    <title>Helpdesk - Tickets</title>
 </head>
 
 <body style="background: none;">
@@ -78,7 +78,6 @@
 
     </section>
 
-	<jsp:include page="../confirm.jsp" />
 	<jsp:include page="../scripts.jsp" />
 
 </body>
